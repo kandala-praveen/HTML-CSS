@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+    <link rel="stylesheet" href="pro1.css">
+</head>
+<body>
+    <h1 id="title">COLLEGE FEEDBACK FORM</h1>
+    <p id="description" style="text-align: center;"><i>Please fill out the formto help us understand your experience in the college. Your response will be kept </i></p>
+    <div id="main">
+    <form action="" id="survey-form" value="form">
+        <label for="" id="name-label">Full Name: </label><br><br><input type="text" placeholder="Enter your name" id="name" required><br><br>
+        <label for="" id="email-label">Email Address: </label><br><br><input type="email" id="email" placeholder="Enter your email" required><br><br>
+        <label for="" id="number-label">Age: </label><br><br><input type="number" id="number" placeholder="Enter your Age" min="16" max="30"><br><br>
+        <dropdown ><label>Select department</label><br><br>
+            <select name="select department" id="dropdown">
+            <option value="">computer science(CSE)</option>
+            <option value="">Electronics & Communications(ECE)</option>
+            <option value="">Electrical & Electronics(EEE)</option>
+            <option value="">Mechanical(MECH)</option>
+            <option value="">Civil(CIVIL)</option>
+            </select>
+        </dropdown><br><br>
+        <label for="">Teaching Quality</label>
+        <p>How do you rate the teaching quality?</p>
+        <input type="radio" value="Excellent" name="feedback"><label >Excellent</label><br><br>
+        <input type="radio"  value="Good" name="feedback"><label>Good</label><br><br>
+        <input type="radio" value="Average" name="feedback"><label>Average</label><br><br>
+        <input type="radio" value="poor" name="feedback"><label>Poor</label><br><br>
+        <p>Which facilities do you use regularly?</p>
+        <input type="checkbox" value="library">Library<br><br>
+        <input type="checkbox" value="computer">Computer<br><br>
+        <input type="checkbox" value="hostel">Hostel<br><br>
+        <input type="checkbox" value="sports">Sports Grounds<br><br>
+    <label for="">Any Suggestions/Comments for Improvement?</label><br><br>
+    <textarea type="textarea" id="area" placeholder="write your feedback here"></textarea><br><br>
+    <input type="submit" id="submit">
+    </form>
+    </div >
+</body>
+</html>
